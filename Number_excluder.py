@@ -10,7 +10,7 @@ b=set(map(int, input("Enter the numbers you want to exclude (comma separated wit
 #first the b is defined as set , 
 #map makes the values in set
 #int makes string to integer valur
-#split makes the input values divided in seperate #parts anr further for the calculation
+#split makes the input values divided in seperate  #parts and further for the calculation
 
 print(sorted(Universal-b))
 #prints the difference of the universal set and set b
