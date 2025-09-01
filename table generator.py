@@ -11,5 +11,5 @@ for i in range(1, b+1):
     print(a, " × ", i , "=", a*i)
     
     # Check if the current number is the last in the range, then break the loop (though this is redundant)
-    if(i == b):
+    if(i == b):   #though this line is not needed it'll already break if I will be equal to b but just for illustration 
         break
