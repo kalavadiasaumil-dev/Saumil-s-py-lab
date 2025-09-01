@@ -11,7 +11,10 @@ def fibonacci(n):
 	return seq
 
 
-n=int(input("Enter the number of terms of your fibonacci sequence:  "))
-print(fibonacci(n))
+n = int(input("Enter the index of the last Fibonacci number you want (starting from 0): "))
+try:
+  print(fibonacci(n))
+except Exception as e:
+  print(f"Error!! {e}")
 
 #the value type will be list because base cases are in list
