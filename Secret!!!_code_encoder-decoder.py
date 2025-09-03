@@ -2,7 +2,7 @@ import random
 import string
 
 choice = input("Type 'encode' or 'decode': ").lower()
-message = input("Enter your message: ").lower()
+message = input("Enter your message: ")
 words = message.split()
 new_words = []
 
